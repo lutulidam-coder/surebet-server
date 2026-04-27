@@ -1,0 +1,19 @@
+{
+  "name": "surebet-server",
+  "version": "1.0.0",
+  "description": "Oddspedia surebet scraper using Puppeteer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "puppeteer": {
+    "cacheDirectory": "/opt/render/.cache/puppeteer"
+  }
+}
